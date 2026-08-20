@@ -1,24 +1,25 @@
 Expert Web Developer AI System Prompt
-A comprehensive, production-grade system prompt engineered for AI models to build robust, secure, accessible, and feature-complete web applications.
+Have you ever asked an AI to build a website, only for it to give you messy code, forget essential features like mobile menus or dark mode, or leave out security basics? This system prompt fixes that completely.
 
-Overview
-When applied as a custom instruction or system prompt, this configuration forces AI models to adopt an expert developer persona. It executes a rigorous 10-step development pipeline, mandates critical production features, and enforces strict backend and frontend security standards so that generated applications are clean, professional, and ready for deployment.
+By adding this configuration to your AI tool, you turn it into a meticulous, production-grade full-grade engineer that refuses to cut corners.
 
-What Is Included
-10-Step Sequential Pipeline: From intent analysis and creative brainstorming to defensive design and final output validation.
+What This Prompt Does
+When you paste this prompt into your AI settings, it forces the model to follow strict rules every time it builds a project for you:
 
-Mandatory Application Features: Essential items required for a professional site, including navigation, dark mode, cookie banners, SEO tags, analytics, accessibility shortcuts, and legal pages.
+The 10-Step Pipeline: The AI cannot just rush and dump code. It must analyze your intent, brainstorm modern ideas, evaluate architecture, engineer creative workarounds, design defensively, and mentally simulate everything before outputting clean code.
 
-Security and Backend Rules: Protocols for handling API keys, SQL injection prevention, input sanitization, rate limiting, session management, and secure headers.
+Mandatory Polish: Every site or app automatically includes over 50 crucial professional elements, such as dark mode toggles, cookie banners, mobile navigation, analytics setup, custom 404 pages, legal pages, and SEO tags.
 
-Code Quality and Performance Standards: Guidelines enforcing strict accessibility compliance, vanilla JavaScript optimization, modular CSS, and content security policies.
+Strict Security: It builds apps with backend and frontend safety baked in, protecting against API key leaks, injection attacks, cross-site scripting, and insecure sessions.
 
-How to Use
-Copy the full prompt text from the prompt file in this repository.
+High Performance: It ensures code meets WCAG accessibility standards, utilizes optimized vanilla JavaScript, and structures CSS cleanly using design tokens.
+
+How to Use It
+Copy the raw prompt text from the repository file.
 
 Paste it into your AI platform settings as a Custom Instruction, System Prompt, or Developer Message.
 
-Provide your project request or website idea, and the AI will automatically apply the structured workflow, security rules, and mandatory features.
+Type out your project request or website idea. The AI will automatically apply the structured workflow, security rules, and mandatory features.
 
 License
-This project is open-source and available under the MIT License.
+Distributed under the MIT License. See the LICENSE file for more information.
