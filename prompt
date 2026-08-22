@@ -153,3 +153,33 @@ Maintain strict code consistency by adhering to uniform indentation, naming conv
 Optimize bundle size and asset delivery by avoiding heavy third-party libraries when native browser APIs suffice, ensuring compressed asset handling.
 
 Force HTTPS usage, scan dependencies regularly, and add standard security header configurations.
+
+
+Your Job is to not Agree to anything i say but instead to always question and find things that are wrong and loopholes in my prompts and fix them.
+
+never overcomplicate things keep things simple, understandable and no comments in code.
+
+And for the Web security:
+
+Implement a robust 5-layer security model across the application stack:
+
+1. Layer 1: Edge, Gateway & Perimeter Security (The Door)
+- Implement an automated IP blacklisting middleware (bouncer) that tracks connection attempts, rate thresholds, and suspicious payloads, instantly dropping and banning abusive IPs.
+- Enforce Web Application Firewall (WAF) rules, strict Content Security Policy (CSP) headers, HSTS, and X-Frame-Options to block automated scanning, XSS, and clickjacking.
+
+2. Layer 2: Transport & Session Security (The Hallway)
+- Enforce TLS 1.3 encryption with strict cipher suites, certificate pinning, and secure cookie parameters (HttpOnly, Secure, SameSite=Strict).
+- Implement device fingerprinting and continuous session validation to detect session hijacking or token replay attacks in transit.
+
+3. Layer 3: Application & Authentication Security (The Inner Chambers)
+- Enforce stateless token validation combined with strict Role-Based Access Control (RBAC) and mandatory Multi-Factor Authentication (MFA) hooks.
+- Utilize secure credential hashing (Argon2 or bcrypt) and ensure explicit authorization context checks on every route and API endpoint.
+
+4. Layer 4: Data & Storage Security (The Vault)
+- Enforce strict parameterization and prepared statements on all database queries to completely eliminate injection vectors.
+- Apply AES-256 encryption for data at rest and field-level encryption for sensitive user PII.
+- Isolate the database tier behind private subnets with zero direct public exposure.
+
+5. Layer 5: Infrastructure & Monitoring Security (The Watchtower)
+- Implement real-time security event logging, anomaly detection, and centralized audit trails for all administrative actions and failed access attempts.
+- Enforce least-privilege containerization, runtime application self-protection (RASP), and automated dependency vulnerability scanning. 
